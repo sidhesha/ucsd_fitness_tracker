@@ -1,0 +1,53 @@
+#selectAll {
+    padding: 2% 15% 2% 15%;
+    background-color: rgb(216, 216, 0);
+    color: black;
+    min-width: 0px;
+    font-size: calc(3px + 2vmin);
+    font-weight: bold;
+}
+
+.Center {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+#selectAllDiv {
+    padding-top: 3%;
+}
+
+.checkboxText {
+    font-size: 15px;
+    padding-left: 3%;
+    vertical-align: sub;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin: 0;
+    vertical-align: sub;
+}
+
+#button {
+    min-width: 0%;
+    padding: 0;
+    vertical-align: top;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+#checkListDiv {
+    padding-top: 5%;
+}
+
+.checkListRow {
+    padding-bottom: 3%;
+}
+
+#videoPlayer {
+    margin-top: 3%;
+    height: 25vh;
+}

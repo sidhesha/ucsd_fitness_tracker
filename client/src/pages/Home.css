@@ -1,0 +1,28 @@
+#startWorkout {
+    padding: 2% 15% 2% 15%;
+    background-color: rgb(216, 216, 0);
+    color: black;
+    min-width: 0px;
+    font-size: calc(3px + 2vmin);
+    font-weight: bold;
+
+}
+
+#workoutDiv {
+    padding-top: 7%;
+    padding-bottom: 13%;
+}
+
+.Center {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+.App-Logo{
+    height: 30vmin;
+    pointer-events: none;
+    margin: 10px;
+}

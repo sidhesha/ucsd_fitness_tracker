@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Redirect</title>
+</head>
+<body>
+<noscript>
+  You need to enable JavaScript to complete login.
+</noscript>
+<div id="msg"></div>
+<script>
+  (function () {
+    try {
+      window.opener.postMessage(1, "*");
+    } catch (e) {
+      const message = "Unable to log you in. " +
+        "Please make sure that you start from the login page, " +
+        "and do not tamper with your browser's Window APIs.";
+      const error = "Error details: " + e;
+      document.getElementById("msg").appendChild(document.createTextNode(message));
+      document.getElementById("msg").appendChild(document.createElement("br"));
+      document.getElementById("msg").appendChild(document.createTextNode(error));
+      return;
+    }
+    const message = "Login success. You may close this window.";
+    document.getElementById("msg").appendChild(document.createTextNode(message));
+    window.close();
+  })();
+</script>
+</body>
+</html>

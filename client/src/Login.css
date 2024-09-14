@@ -1,0 +1,19 @@
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    height: 100vh;
+}
+
+#loginTitle{
+    font-size: calc(10px + 10vmin);
+    margin: 10px;
+}
+
+.App-logo{
+    height: 40vmin;
+    pointer-events: none;
+    margin: 10px;
+}

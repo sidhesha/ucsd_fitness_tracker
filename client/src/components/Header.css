@@ -1,0 +1,11 @@
+.Header {
+    font-size: calc(7px + 7vmin);
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Sub-Header {
+    font-size: calc(5px + 5vmin);
+    padding-left: 5%;
+}
